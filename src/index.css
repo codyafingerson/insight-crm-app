@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  user-select: none;
+::selection {
+  background: #ff7e5f; /* Solid color */
+  color: #fff; /* Text color */
 }
